@@ -3,9 +3,9 @@ import { motion } from "framer-motion";
 
 export default function Services(){
     return(
-        <main name = "Services" className=" min-h-screen p-28 font-outfit bg-primary ">
+        <main name = "Services" className=" min-h-screen p-28 max-md:px-8 font-outfit bg-primary ">
             <div className="flex flex-col gap-16">
-                <h1 className="text-5xl text-secondary font-bold">Our <span className=" text-complementary">Services</span> </h1>
+                <h1 className="text-5xl text-secondary font-bold max-md:text-4xl max-md:text-center">Our <span className=" text-complementary">Services</span> </h1>
                 <motion.div 
         initial={{
             scale: 0,

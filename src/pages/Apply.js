@@ -66,7 +66,7 @@ export default function Apply(){
     return (
         <main className=" min-h-screen bg-primary font-outfit ">
             
-            <motion.form onSubmit={sendEmail} className="flex p-32 justify-center"
+            <motion.form onSubmit={sendEmail} className="flex p-32 max-md:px-4 justify-center"
             initial={{
                 opacity: 0,
                 hidden: "true"
@@ -85,32 +85,32 @@ export default function Apply(){
             }}
             viewport={{ once: false }}  
             >
-                <div className="flex flex-col bg-secondary bg-opacity-15 gap-4 w-[800px] p-12 rounded-xl">
-                    <h1 className="font-bold text-6xl text-secondary"> <span className=" text-complementary">Model</span> Form</h1>
+                <div className="flex flex-col bg-secondary bg-opacity-15 gap-4 w-[800px] p-12 rounded-xl max-md:p-4 max-md:gap-1">
+                    <h1 className="font-bold text-6xl text-secondary max-md:text-4xl"> <span className=" text-complementary">Model</span> Form</h1>
                     <div className="flex flex-col gap-2">
                         <label className=" text-secondary text-lg">Name:</label>
-                        <input required = {true} name = "name" placeholder="Enter your name" className= "bg-secondary bg-opacity-10 w-[100%] p-3 text-md rounded-xl border-2 border-secondary border-opacity-20  text-secondary  "></input>
+                        <input required = {true} name = "name" placeholder="Enter your name" className= "bg-secondary bg-opacity-10 w-[100%] p-3 text-md rounded-xl border-2 border-secondary border-opacity-20  text-secondary max-md:p-2   "></input>
                     </div>
                     <div className="flex flex-col gap-2">
                         <label className=" text-secondary text-lg">Email:</label>
-                        <input required = {true} name = "email" placeholder="Enter your email" className= "bg-secondary bg-opacity-10 w-[100%] p-3 text-md rounded-xl border-2 border-secondary border-opacity-20  text-secondary  "></input>
+                        <input required = {true} name = "email" placeholder="Enter your email" className= "bg-secondary bg-opacity-10 w-[100%] p-3 text-md rounded-xl border-2 border-secondary border-opacity-20  text-secondary max-md:p-2  "></input>
                     </div>
                     <div className="flex flex-col gap-2">
                         <label className=" text-secondary text-lg">Phone Number:</label>
-                        <input onChange={formatPhoneNumber} required = {true} name = "number" placeholder="(123) 447 689" className= "bg-secondary bg-opacity-10 w-[100%] p-3 text-md rounded-xl border-2 border-secondary border-opacity-20  text-secondary  "></input>
+                        <input onChange={formatPhoneNumber} required = {true} name = "number" placeholder="(123) 447 689" className= "bg-secondary bg-opacity-10 w-[100%] p-3 text-md rounded-xl border-2 border-secondary border-opacity-20 max-md:p-2 text-secondary  "></input>
                     </div>
                     <div className="flex flex-col gap-2">
                         <label className=" text-secondary text-lg">Twitter Handle:</label>
-                        <input name = "twitter" placeholder="@username" className= "bg-secondary bg-opacity-10 w-[100%] p-3 text-md rounded-xl border-2 border-secondary border-opacity-20  text-secondary  "></input>
+                        <input name = "twitter" placeholder="@username" className= "bg-secondary bg-opacity-10 w-[100%] p-3 text-md rounded-xl border-2 border-secondary max-md:p-2  border-opacity-20  text-secondary  "></input>
                     </div>
                     <div className="flex flex-col gap-2">
                         <label className=" text-secondary text-lg">Instagram Handle:</label>
-                        <input name = "instagram" placeholder="@username" className= "bg-secondary bg-opacity-10 w-[100%] p-3 text-md rounded-xl border-2 border-secondary border-opacity-20  text-secondary  "></input>
+                        <input name = "instagram" placeholder="@username" className= "bg-secondary bg-opacity-10 w-[100%] p-3 text-md rounded-xl border-2 border-secondary border-opacity-20 max-md:p-2   text-secondary  "></input>
                     </div>
-                    <button type="submit" className={" bg-complementary w-[100%] h-[65px] text-2xl justify-center text-primary font-bold rounded-xl hover:scale-105 hover:bg-secondary duration-300 "}>
+                    <button type="submit" className={" bg-complementary w-[100%] h-[65px] text-2xl justify-center text-primary font-bold rounded-xl hover:scale-105 hover:bg-secondary duration-300 max-md:h-[50px] max-md:mt-2"}>
                         Apply
                     </button>
-                    <h3 className="text-center text-secondary text-lg">Already applied or facing errors. <span onClick={()=>
+                    <h3 className="text-center max-md:text-sm text-secondary text-lg">Already applied or facing errors. <span onClick={()=>
                     window.location.href = "https://www.instagram.com/euphoriaentllc/"} className="underline hover:text-complementary hover:cursor-pointer">Message Us</span></h3>
                     <h1 className=" text-complementary text-4xl text-center">{message}</h1>
                 </div>

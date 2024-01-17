@@ -62,9 +62,9 @@ export default function Testimonials(){
     }
     
     return(
-        <main name = "Testimonials" className=" min-h-screen p-28 font-outfit bg-primary ">
+        <main name = "Testimonials" className=" min-h-screen p-28 max-md:px-12 font-outfit bg-primary ">
             <div className="flex flex-col gap-12">
-                <h1 className="text-5xl text-center text-secondary font-bold">What our <span className=" text-complementary">testimonials say</span> </h1>
+                <h1 className="max-md:text-4xl text-5xl text-center text-secondary font-bold">What our <span className=" text-complementary">testimonials say</span> </h1>
                 
                 <div className="flex justify-center relative items-center max-h-fit overflow-clip">
                   <AnimatePresence mode="wait" initial={false} custom={currentIndex}>

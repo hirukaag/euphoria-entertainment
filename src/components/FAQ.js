@@ -3,9 +3,9 @@ import { motion } from "framer-motion";
 
 export default function FAQ(){
     return(
-        <main name = "FAQ" className="bg-primary p-32 min-h-screen   ">
+        <main name = "FAQ" className="bg-primary p-32 min-h-screen max-md:px-4  ">
             <div className="flex flex-col gap-8">
-                <h1 className="font-bold text-secondary text-5xl text-center">Got any <span className="text-complementary">Questions</span></h1>
+                <h1 className="font-bold text-secondary text-5xl text-center max-md:text-4xl">Got any <span className="text-complementary">Questions</span></h1>
                 <motion.div 
                 initial={{
                     scale: 0,
