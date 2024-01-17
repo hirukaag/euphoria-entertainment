@@ -83,8 +83,8 @@ export default function Testimonials(){
                   </motion.div>
                 </AnimatePresence>
                   
-                  <button onClick={()=>switchIndex(1)} className="p-4 bg-secondary rounded-full bg-opacity-15 m-auto h-24 hover:scale-105 duration-200 flex justify-center items-center absolute top-0 bottom-0 right-6 text-secondary text-4xl">{">"}</button>
-                  <button onClick={()=>switchIndex(-1)} className="p-4 bg-secondary rounded-full bg-opacity-15 m-auto h-24 hover:scale-105 duration-200 flex justify-center items-center absolute top-0 bottom-0 left-6 text-secondary text-4xl">{"<"}</button>
+                  <button onClick={()=>switchIndex(1)} className="p-4 max-md:p-1 max-md:text-md max-md:right-0 bg-secondary rounded-full bg-opacity-15 m-auto h-24 hover:scale-105 duration-200 flex justify-center items-center absolute top-0 bottom-0 right-6 text-secondary text-4xl">{">"}</button>
+                  <button onClick={()=>switchIndex(-1)} className="p-4 bg-secondary rounded-full bg-opacity-15 m-auto h-24 hover:scale-105 duration-200 flex justify-center items-center absolute top-0 bottom-0 left-6 text-secondary text-4xl max-md:p-1 max-md:text-md max-md:left-0">{"<"}</button>
                 </div>
                 
                         
