@@ -21,7 +21,7 @@ export default function Home(){
             opacity: 1
         }}
         transition={{
-            duration: 2,
+            duration: 1,
             type:"spring",
             damping: 10,
             stiffness: 20
