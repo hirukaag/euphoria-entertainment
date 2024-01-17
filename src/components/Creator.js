@@ -1,6 +1,6 @@
 export default function Creator({image,name, profession, quote, description}){
     return(
-        <main className="p-8 w-[800px] h-[400px] max-md:h-[300px] max-md:w-[100%] bg-secondary bg-opacity-5 border-2 border-secondary border-opacity-20 rounded-lg">
+        <main className="p-8 w-[800px] h-[400px] max-md:w-[100%] bg-secondary bg-opacity-5 border-2 border-secondary border-opacity-20 rounded-lg">
             <div className="flex flex-col gap-4 ">
                 <div className="flex justify-between items-center">
                     <img src= {image} className=" w-[75px] max-md:w-[50px] max-md:h-[50px] h-[75px] rounded-full object-cover "></img>

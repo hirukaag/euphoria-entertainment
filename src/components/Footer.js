@@ -14,7 +14,7 @@ export default function Footer(){
                 <div className=" flex flex-col gap-6 max-md:gap-2">
                     <h1 className="text-2xl text-secondary max-md:text-lg">Socials</h1>
                     <a href="https://www.instagram.com/euphoriaentllc/" className="text-lg text-secondary text-opacity-50 hover:underline hover:text-complementary max-md:text-sm">Instagram</a>
-                    <a href="#" className="text-lg text-secondary text-opacity-50 hover:underline hover:text-complementary max-md:text-sm">Twitter</a>
+                    <a href="https://twitter.com/Euphoriaent2023" className="text-lg text-secondary text-opacity-50 hover:underline hover:text-complementary max-md:text-sm">Twitter</a>
                 </div>
                 <div className=" flex flex-col gap-6 max-md:gap-2">
                     <h1 className="text-2xl text-secondary max-md:text-lg">Support</h1>
