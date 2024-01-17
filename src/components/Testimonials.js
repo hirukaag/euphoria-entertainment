@@ -74,7 +74,7 @@ export default function Testimonials(){
                     animate={{ opacity: 1, x: '0%' }}
                     exit={{ opacity: 0 }}
                     transition={{ 
-                      duration: 1,
+                      duration: .5,
                       ease: 'easeInOut'
                     }} 
                     className="flex items-center justify-center w-[100%] h-[100%]">
